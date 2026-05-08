@@ -1,0 +1,107 @@
+body {
+    background-image: url("inicio-fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+}
+
+h1,
+h2 {
+    text-align: center;
+    line-height: 3px;
+}
+
+h3,
+h4 {
+    line-height: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a:hover {
+    color: red;
+}
+
+a,
+a:visited {
+    color: aliceblue;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: green;
+    width: fit-content;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    background-color: green;
+    color: aliceblue;
+    padding: 5px;
+    font-size: 18px;
+    font-family: initial;
+    border: none;
+    margin: 0;
+    outline: none;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    font-size: 18px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#centerBox {
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#centerBox {
+    padding-top: 1px;
+    padding-left: 3px;
+}
+
+.footer {
+    position: relative;
+    padding-left: 3px;
+    padding-top: 0.5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.5);
+}
