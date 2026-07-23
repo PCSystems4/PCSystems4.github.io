@@ -97,6 +97,6 @@ a:visited {
     padding-bottom: 0.5px;
     left: 0;
     bottom: 0;
-    width: 40%;
+    width: auto;
     background-color: rgba(0, 191, 255, 0.2);
 }
